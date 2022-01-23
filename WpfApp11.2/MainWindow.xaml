@@ -1,0 +1,136 @@
+﻿<Window x:Class="WpfApp11._2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp11._2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Path Data="M376,384.33333 C376,384.33333 403.5,321.16701 408.16667,310.50034 412.83333,299.83368 377.49998,291.167 388.16654,239.83366" HorizontalAlignment="Left" Height="145.5" Margin="388.167,255.5,0,0" Stretch="Fill" Stroke="Green" VerticalAlignment="Top" Width="33.594" StrokeMiterLimit="1"/>
+        <Path Stroke="Black" Margin="349.5,149.5,341.5,168.5">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEEF908" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+            <Path.Data>
+                <PathGeometry>
+                    <PathFigure IsClosed="True" StartPoint="100.5,50.5">
+                        <PolyBezierSegment IsSmoothJoin="True" Points="100.5,78.114237 78.114237,100.5 50.5,100.5 22.885763,100.5 0.5,78.114237 0.5,50.5 0.5,22.885763 22.885763,0.5 50.5,0.5"/>
+                        <BezierSegment Point3="68.9557809033878,4.01647611385869" Point2="63.2456491748619,1.74738512142687" Point1="57.0184957902587,0.5"/>
+                        <BezierSegment IsSmoothJoin="True" Point3="100.5,50.5" Point2="100.5,29.404258298719" Point1="87.435422204267,11.3599122398097"/>
+                    </PathFigure>
+                </PathGeometry>
+            </Path.Data>
+        </Path>
+        <Path Data="M402.66667,365 C493.33333,355.66667 428.83299,407.16667 500.83299,339.16667 572.83299,271.16667 426.83307,389.16722 388.16628,359.83336" HorizontalAlignment="Left" Height="58.263" Margin="388.167,317.71,0,0" Stretch="Fill" Stroke="Green" VerticalAlignment="Top" Width="133.332">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF6AE017" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M418.66667,149" HorizontalAlignment="Left" Height="1" Margin="418.667,149,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="1" d:IsHidden="True">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFEEF908" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Fill="Aqua" Stroke="Black" Margin="300.5,10,-300.5,-10" >
+            <Path.Data>
+                <EllipseGeometry RadiusX="20" RadiusY="40" Center="100,100"/>
+            </Path.Data>
+
+        </Path>
+        <Path Fill="Aqua" Stroke="Black" Margin="-16.5,286.667,16.5,-286.667" RenderTransformOrigin="0.5,0.5" >
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.448"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+            <Path.Data>
+                <EllipseGeometry RadiusX="20" RadiusY="40" Center="100,100"/>
+            </Path.Data>
+
+        </Path>
+        <Path Fill="Aqua" Stroke="Black" Margin="-197.5,286.667,197.5,-286.667" RenderTransformOrigin="0.5,0.5" >
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90.448"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Path.RenderTransform>
+            <Path.Data>
+                <EllipseGeometry RadiusX="20" RadiusY="40" Center="100,100"/>
+            </Path.Data>
+
+        </Path>
+        <Path Fill="Aqua" Stroke="Black" Margin="-115,-329.833,115,329.833" RenderTransformOrigin="0.5,0.5" >
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.433"/>
+                    <RotateTransform Angle="214.326"/>
+                    <TranslateTransform X="-2.992" Y="-0.023"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+            <Path.Data>
+                <EllipseGeometry RadiusX="20" RadiusY="40" Center="100,100"/>
+            </Path.Data>
+
+        </Path>
+        <Path Fill="Aqua" Stroke="Black" Margin="-229.5,-192.833,229.5,192.833" RenderTransformOrigin="0.5,0.5" >
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.433"/>
+                    <RotateTransform Angle="214.326"/>
+                    <TranslateTransform X="-2.992" Y="-0.023"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+            <Path.Data>
+                <EllipseGeometry RadiusX="20" RadiusY="40" Center="100,100"/>
+            </Path.Data>
+
+        </Path>
+        <Path Fill="Aqua" Stroke="Black" Margin="224,-215.333,-224,215.333" RenderTransformOrigin="0.5,0.5" >
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.433"/>
+                    <RotateTransform Angle="313.122"/>
+                    <TranslateTransform X="-2.992" Y="-0.023"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+            <Path.Data>
+                <EllipseGeometry RadiusX="20" RadiusY="40" Center="100,100"/>
+            </Path.Data>
+
+        </Path>
+        <Path Fill="Aqua" Stroke="Black" Margin="347.5,-84.833,-347.5,84.833" RenderTransformOrigin="0.5,0.5" >
+            <Path.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="-0.433"/>
+                    <RotateTransform Angle="313.122"/>
+                    <TranslateTransform X="-2.992" Y="-0.023"/>
+                </TransformGroup>
+            </Path.RenderTransform>
+            <Path.Data>
+                <EllipseGeometry RadiusX="20" RadiusY="40" Center="100,100"/>
+            </Path.Data>
+
+        </Path>
+    </Grid>
+</Window>
+
